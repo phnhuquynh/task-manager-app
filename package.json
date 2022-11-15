@@ -1,0 +1,31 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "v1-setup",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phnhuquynh/TASK_MANAGER_APP.git"
+  },
+  "keywords": [
+    "mongoDB",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "phnhuquynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phnhuquynh/TASK_MANAGER_APP/issues"
+  },
+  "homepage": "https://github.com/phnhuquynh/TASK_MANAGER_APP#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
